@@ -28,8 +28,22 @@
 .button{
     margin-bottom:  30px;
     margin-top:  30px;
+    margin-right: 5px;
+    border-radius: 50px;
+    padding: 14px 40px;
+    font-size: 10px;
+    font-weight: bold;
+    border: 2px solid green;
+    background-color: white;
+    color: green;
+    text-transform: uppercase; 
+  
+}
+.gary-button{
+    background-color: grey;
+    border: none;
+    color: white;
 
-    margin-right: 20px;
 }
 .small-img{
     margin-right: 30px;
@@ -45,4 +59,31 @@
    
    
 }
+.gary-text{
+    color: gray;
+    text-transform: capitalize;       
+
+}
+@media only screen and (min-width: 742px) {
+    .button{
+        margin-bottom:  30px;
+        margin-top:  30px;
+        margin-right: 20px;
+        border-radius: 50px;
+        padding: 14px 50px;
+        font-size: 14px;
+        font-weight: bold;
+        border: 2px solid green;
+        background-color: white;
+        color: green;
+        text-transform: uppercase;       
+     
+      
+    }
+    .gary-button{
+        background-color: grey;
+        border: none;
+        color: white;
+    }
+  }
 
